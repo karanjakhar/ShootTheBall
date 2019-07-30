@@ -7,7 +7,7 @@ using namespace std;
 void main()
 { clrscr();
 int i,q=1,j,a,b,l,p=0, bcx=60,bcy=60;
-      int gdriver,gmode=DETECT;
+      int gdriver = DETECT, gmode;
       initgraph(&gdriver,&gmode," ");
       rectangle(50,100,450,400);
       setcolor(4);
