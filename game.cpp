@@ -90,7 +90,7 @@ int i,q=1,j,a,b,l,p=0, bcx=60,bcy=60;
       delay(2000);}
   if(q==3)
     { outtextxy(200,200,"THIRD CHANCE");
-      delay(2000);}
+      delay(3000);} //MAKING IT TO SLOW DOWN A LITTLE
       cleardevice();
       setbkcolor(9);
       setcolor(1);
